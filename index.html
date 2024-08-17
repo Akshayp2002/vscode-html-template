@@ -61,44 +61,22 @@
                         <div class="w-12 flex flex-col mx-auto">
 
                             <div class="flex justify-center items-center h-12 hover:bg-sky-950 border-l-2 border-blue-500"
-                                data-accordion-target="#accordion-collapse-body-1" aria-expanded="true"
-                                aria-controls="accordion-collapse-body-1">
-                                <svg class="w-6 h-6" viewBox="0 0 24 24" fill="#ffffff"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M4 18L20 18" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
-                                    <path d="M4 12L20 12" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
-                                    <path d="M4 6L20 6" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
-                                </svg>
-                            </div>
-
-                            <div class="flex justify-center items-center h-12 hover:bg-sky-950" 
-                                data-accordion-target="#accordion-collapse-body-2" aria-expanded="flase"
-                                aria-controls="accordion-collapse-body-2">
+                                data-accordion-target="#accordion-collapse-body-1" aria-expanded="true">
                                 <svg class="w-6 h-6" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
                                     fill="#ffffff">
                                     <path
                                         d="M17.5 0h-9L7 1.5V6H2.5L1 7.5v15.07L2.5 24h12.07L16 22.57V18h4.7l1.3-1.43V4.5L17.5 0zm0 2.12l2.38 2.38H17.5V2.12zm-3 20.38h-12v-15H7v9.07L8.5 18h6v4.5zm6-6h-12v-15H16V6h4.5v10.5z" />
                                 </svg>
+
                             </div>
 
-                            <div class="flex justify-center items-center h-12 hover:bg-sky-950">
-                                <svg class="w-6 h-6" viewBox="0 0 24 24" fill="#ffffff"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12C11 12.5523 11.4477 13 12 13Z"
-                                        stroke="#ffffff" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                    <path
-                                        d="M19 13C19.5523 13 20 12.5523 20 12C20 11.4477 19.5523 11 19 11C18.4477 11 18 11.4477 18 12C18 12.5523 18.4477 13 19 13Z"
-                                        stroke="#ffffff" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                    <path
-                                        d="M5 13C5.55228 13 6 12.5523 6 12C6 11.4477 5.55228 11 5 11C4.44772 11 4 11.4477 4 12C4 12.5523 4.44772 13 5 13Z"
-                                        stroke="#ffffff" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                </svg>
+                            <div class="flex justify-center items-center h-12 hover:bg-sky-950"
+                                data-accordion-target="#accordion-collapse-body-5" aria-expanded="false">
+                                <img src="/img/menu.svg" class="w-6" alt="">
                             </div>
-                            <!-- git -->
+
+                            <!-- git  -->
+
                             <div class="flex justify-center items-center h-12 hover:bg-sky-950">
                                 <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                                     stroke="#deddda">
@@ -290,9 +268,8 @@
 
                                                         <div class="hs-accordion-selectable hs-accordion-selected:bg-gray-100 dark:hs-accordion-selected:bg-neutral-700 px-2 rounded-md cursor-pointer  bg-[#2e2e2e]"
                                                             role="treeitem"
-                                                            data-accordion-target="#accordion-collapse-body-3"
-                                                            aria-expanded="true"
-                                                            aria-controls="accordion-collapse-body-3">
+                                                            data-accordion-target="#accordion-collapse-body-4"
+                                                            aria-expanded="true">
                                                             <div class="flex items-center gap-x-3">
                                                                 <img src="/img/about.svg" class="w-4" alt="">
                                                                 <div class="grow">
@@ -537,13 +514,22 @@
                         </div>
 
                     </div>
+
+                    <div id="accordion-collapse-body-5" aria-labelledby="accordion-collapse-heading-5"
+                        class="hidden w-96 max-w-3xl min-w-48 flex flex-col mx-auto bg-[#181818] resizeable-box cursor-pointer focus:outline-none focus:ring-1 focus:ring-[#0078d4]">
+                        <!-- slider -->
+                        <div class="resize-handle"></div>
+                        <div class="container mx-auto max-w-5xl w-full mb:p-12 flex justify-center">
+                             
+                        </div>
+                    </div>
                     <!-- file system -->
                 </nav>
                 <!-- sidebar -->
 
                 <!-- Miin page -->
                 <main class="flex flex-col w-full bg-[#1f1f1f] overflow-x-hidden overflow-y-auto justify-center px-8">
-                    <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-3">
+                    <div id="accordion-collapse-body-4" class="hidden">
                         <div class="container mx-auto max-w-5xl w-full mb:p-12 flex justify-center">
                             <div class="w-full md:w-3/6 justify-start">
                                 <h1 class="text-5xl font-sans mb-2 text-gray-300">Vignesh S</h1>
@@ -673,7 +659,7 @@
 
                     <!-- second page -->
 
-                    <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2">
+                    <div id="accordion-collapse-body-2" class="hidden">
                         <div class="container mx-auto max-w-5xl w-full mb:p-12 flex justify-center">
                             <div class="w-full md:w-3/6 justify-start">
                                 <h1 class="text-5xl font-sans mb-2 text-gray-300">Akshay</h1>
@@ -774,31 +760,31 @@
 
         </footer>
     </div>
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const triggers = document.querySelectorAll('.accordion-trigger');
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const triggers = document.querySelectorAll('.accordion-trigger');
 
-        triggers.forEach(trigger => {
-            trigger.addEventListener('click', function () {
-                const target = document.querySelector(this.getAttribute('data-accordion-target'));
-                const isExpanded = this.getAttribute('aria-expanded') === 'true';
+            triggers.forEach(trigger => {
+                trigger.addEventListener('click', function () {
+                    const target = document.querySelector(this.getAttribute('data-accordion-target'));
+                    const isExpanded = this.getAttribute('aria-expanded') === 'true';
 
-                // Toggle the clicked trigger
-                this.setAttribute('aria-expanded', !isExpanded);
-                target.classList.toggle('hidden', isExpanded);
+                    // Toggle the clicked trigger
+                    this.setAttribute('aria-expanded', !isExpanded);
+                    target.classList.toggle('hidden', isExpanded);
 
-                // Close other accordions
-                triggers.forEach(otherTrigger => {
-                    if (otherTrigger !== trigger) {
-                        const otherTarget = document.querySelector(otherTrigger.getAttribute('data-accordion-target'));
-                        otherTrigger.setAttribute('aria-expanded', 'false');
-                        otherTarget.classList.add('hidden');
-                    }
+                    // Close other accordions
+                    triggers.forEach(otherTrigger => {
+                        if (otherTrigger !== trigger) {
+                            const otherTarget = document.querySelector(otherTrigger.getAttribute('data-accordion-target'));
+                            otherTrigger.setAttribute('aria-expanded', 'false');
+                            otherTarget.classList.add('hidden');
+                        }
+                    });
                 });
             });
         });
-    });
-</script>
+    </script>
 
 
     <style>
